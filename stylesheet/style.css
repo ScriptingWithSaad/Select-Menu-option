@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(#f44336, #730228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selector {
+    width: 28vw;
+}
+
+#SelectField {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 1.1vw 1.5vw;
+    border-radius: .3vw;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-size: 1.3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+#SelectField img {
+    width: 1vw;   
+}
+
+.list {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: .4vw;
+    overflow: hidden;
+    margin-top: 1vw;
+}
+
+.list.hide {
+    visibility: hidden;
+}
+
+.list a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.options {
+    list-style: none;
+    padding: .7vw 1.3vw;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.list a:hover {
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.options img {
+    width: 1.5vw;
+    margin-right: 1vw;
+}
